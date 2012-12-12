@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">LahoylahoyN.PogoyR.Act01</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_phonebook">PhonebookActivity</string>
+    <string name="title_activity_addcontact">AddContact</string>
+    <string name="title_activity_contactdetails">ContactDetails</string>
+    <string name="title_activity_editdetails">EditDetails</string>
+
+</resources>

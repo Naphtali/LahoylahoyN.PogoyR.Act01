@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="#FFF" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_margin="40dp" >
+    	
+        <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#aaa"
+	        android:textSize="15dp"
+	        android:layout_margin="5dp"
+	        android:text="Name:" />
+        
+        <TextView
+	        android:id="@+id/contact_name"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#0F00FF"
+	        android:textSize="30dp"
+	        android:layout_margin="5dp"
+	        android:text="Dummy Name" />
+        
+        <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#aaa"
+	        android:textSize="15dp"
+	        android:layout_margin="5dp"
+	        android:text="Number:" />
+	    
+	    <TextView
+	        android:id="@+id/contact_num"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#000000"
+	        android:textSize="20dp"
+	        android:layout_margin="5dp"
+	        android:text="Dummy Number" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="left" >
+        
+        <Button
+	        android:id="@+id/edit_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="3dp"
+	        android:text="Edit" />
+	    <Button
+	        android:id="@+id/delete_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="3dp"
+	        android:text="Delete" />
+        
+    </LinearLayout>
+    
+    
+
+</LinearLayout>
